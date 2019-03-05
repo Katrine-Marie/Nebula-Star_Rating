@@ -17,7 +17,7 @@ if(!defined('ABSPATH')){
 	exit('Go away!');
 }
 
-add_shortcode('nebula-rating','nebula_add_stars');
+add_shortcode('nebula-rating',__NAMESPACE__.'\nebula_add_stars');
 
  function nebula_add_stars($atts)
  {
