@@ -45,7 +45,7 @@ class ratingShortcode{
 
  	 return ("
  	 <div style='padding:10px; border-radius:5px; font-size:16pt; background:$bgcolor; width:100%; margin-bottom:20px;'>
- 	 $icon
+ 	 <div style=\"padding:0 10px 0 20px;\">$icon</div>
  	 This is Rated:
  	 $number_of_stars out of 5 stars
  	 </div>
