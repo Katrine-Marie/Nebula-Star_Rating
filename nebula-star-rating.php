@@ -17,6 +17,8 @@ if(!defined('ABSPATH')){
 	exit('Go away!');
 }
 
+define('nebula_rating_DIR', plugin_dir_path(__FILE__));
+
 class ratingShortcode{
 
 	public function __construct(){
@@ -52,5 +54,6 @@ class ratingShortcode{
  	 ");
   }
 
-
 }
+
+$ratingShortcode = new ratingShortcode();
