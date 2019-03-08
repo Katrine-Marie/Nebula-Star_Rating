@@ -57,3 +57,30 @@ class ratingShortcode{
 }
 
 $ratingShortcode = new ratingShortcode();
+
+
+
+/* Starting up the plugin */
+$mystart = new InitializePlugin();
+
+// Welcome screen
+include_once nebula_rating_DIR . 'init/admin_welcome.php';
+$welcome_page = new admin_welcome();
+
+class InitializePlugin
+{
+    public function __construct(){
+         register_activation_hook( __FILE__, array($this, 'plugin_activated' ));
+         register_deactivation_hook( __FILE__, array($this, 'plugin_deactivated' ));
+         register_uninstall_hook( __FILE__, array($this, 'plugin_uninstall' ) );
+    }
+    public static function plugin_activated(){
+			set_transient('_nebula_rating_welcome',true,30);
+    }
+    public function plugin_deactivated(){
+
+    }
+    public function plugin_uninstall() {
+
+    }
+}
