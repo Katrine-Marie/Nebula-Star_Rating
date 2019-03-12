@@ -12,6 +12,6 @@ Here you can see what the resulting rating will look like:
 
 ![A Rating of 5](https://github.com/Katrine-Marie/Nebula-Star_Rating/blob/master/images/rated5.png)
 
-![A Rating of 3](https://fjordstudio.dk/assets/screenshots/rating/rated3.png)
+![A Rating of 3](https://github.com/Katrine-Marie/Nebula-Star_Rating/blob/master/images/rated3.png)
 
-![A Rating of 1](https://fjordstudio.dk/assets/screenshots/rating/rated1.png)
+![A Rating of 1](https://github.com/Katrine-Marie/Nebula-Star_Rating/blob/master/images/rated1.png)
